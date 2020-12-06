@@ -58,33 +58,28 @@ border-spacing: 0;
   height: 0
 }
 /*
-Start my Style start here
+ my Style start here
 */
 
 .header{
 	position: fixed;
 	top: 0;
 	width: 100%;
-}
-.navbar {
 	background: black;
 	height: 100px;
-	width: 100%;
-
 }
-.containerLogo {
+
+.containerNavbar {
 	color: white;
-	line-height: 100px;
 	padding: 10px 10px 5px 50px;
 }
 .menu {
 	float: right;
 	margin-right: 20px;
-
 }
 .menu li{
 	display: inline-block;
-	line-height: 80px;
+	line-height: 70px;
 	margin: 0px 20px 0px 20px; 
 }
 .menu li a {
@@ -93,26 +88,24 @@ Start my Style start here
 	text-transform: uppercase;
 }
 .menu li a:hover{
-	background: blue;
-	transition: 1s;
+	background: green;
+	transition: 0.2s;
 
 }
-.menu li a:active {
+.menu li a:active{
     color: red; 
    } 
 .main{
-	margin: 100px 30px 10px 20px;
+	margin: 145px 30px 10px 20px;
 }
 .headingMain{
-	margin-top: 15px;
 	float: left;
 	font-size: 50px;
 	font-style: italic;
 }
 .headingText{
 	float: left;
-	margin-right: 450px;
-	margin-left: 50px;
+	margin: 13px 450px 5px 50px;
 }
 .wrapImgBook{
 	float: right;
@@ -122,7 +115,7 @@ Start my Style start here
 	text-align:justify;
 	float: left;
 	width: 47%;
-	margin-left: 15px;
+	margin: 0px 0px 50px 15px;
 	font-style: italic;
 	font-size: 17px;
 }
@@ -130,12 +123,14 @@ Start my Style start here
 	text-align:justify;
 	float: right;
 	width: 47%;
+	margin: 0px 0px 50px 15px;
 	font-style: italic;
 	font-size: 17px;
 }
 .mainTextHeading{
 	font-size: 35px;
-	margin-bottom: 7px;
+	margin:0px 0px 7px 20px;
+
 }
 .footer {
   position: fixed;
