@@ -60,17 +60,22 @@ border-spacing: 0;
 /*
  my Style start here
 */
+body{
+	font-family: inherit;
+	font-style: italic;
+	font-size: 17px;
 
+}
 .header{
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background: black;
+	background: #060000;
 	height: 100px;
 }
 
 .containerNavbar {
-	color: white;
+	color: #FDFEFE;
 	padding: 10px 10px 5px 50px;
 }
 .menu {
@@ -83,17 +88,19 @@ border-spacing: 0;
 	margin: 0px 20px 0px 20px; 
 }
 .menu li a {
-	color: white;
+	text-decoration: none;
+	color: #FDFEFE;
 	font-size: 15px;
 	text-transform: uppercase;
 }
 .menu li a:hover{
-	background: green;
+	text-decoration: none;
+	background: #82E0AA;
 	transition: 0.2s;
 
 }
 .menu li a:active{
-    color: red; 
+    color: #E74C3C; 
    } 
 .main{
 	margin: 145px 30px 10px 20px;
@@ -116,16 +123,13 @@ border-spacing: 0;
 	float: left;
 	width: 47%;
 	margin: 0px 0px 50px 15px;
-	font-style: italic;
-	font-size: 17px;
+	
 }
 .mainTextClients{
 	text-align:justify;
 	float: right;
 	width: 47%;
 	margin: 0px 0px 50px 15px;
-	font-style: italic;
-	font-size: 17px;
 }
 .mainTextHeading{
 	font-size: 35px;
@@ -134,9 +138,7 @@ border-spacing: 0;
 }
 .footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
   text-align: center;
 }
