@@ -64,7 +64,23 @@ body{
 	font-family: inherit;
 	font-style: italic;
 	font-size: 17px;
-
+}
+.container{
+	max-width: 1400px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+@media (max-width: 1200px){
+	.container {max-width: 970px;
+	}
+}
+@media (max-width: 992px){
+	.container {max-width: 750px;
+	}
+}
+@media (max-width: 767px){
+	.container {max-width: none;
+	}
 }
 .header{
 	position: fixed;
@@ -112,32 +128,45 @@ body{
 }
 .headingText{
 	float: left;
-	margin: 13px 450px 5px 50px;
+	margin: 0.5% 30% 5px 5%;
 }
 .wrapImgBook{
 	float: right;
-	margin-right: 200px;
+	margin-right: 20%;
 }
 .mainTextAbout{
 	text-align:justify;
 	float: left;
 	width: 47%;
 	margin: 0px 0px 50px 15px;
-	
 }
+@media (max-width: 992px){
+	.mainTextAbout {
+		width: 90%;
+		float: none;
+		margin: 0px;
+	}
+		}
 .mainTextClients{
 	text-align:justify;
 	float: right;
 	width: 47%;
 	margin: 0px 0px 50px 15px;
 }
+@media (max-width: 992px){
+	.mainTextClients {
+		width: 90%;
+		float: none;
+		margin: 0px;
+	}
+		}
 .mainTextHeading{
 	font-size: 35px;
 	margin:0px 0px 7px 20px;
 
 }
 .footer {
-  position: fixed;
+  position:fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
